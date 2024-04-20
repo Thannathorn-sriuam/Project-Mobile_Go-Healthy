@@ -1,0 +1,44 @@
+name: go_healthy
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+dependencies:
+  cloud_firestore: ^4.17.0
+  firebase_core: ^2.30.0
+  flutter:
+    sdk: flutter
+
+  flutter_calendar_carousel: ^2.3.1
+  http: ^0.13.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: Baloo
+      fonts:
+        - asset: fonts/Baloo-Regular.ttf
+
+    - family: Baloo2
+      fonts:
+        - asset: fonts/Baloo2-Regular.ttf    
+
+  assets:
+    - assets/exercise.png
+    - assets/mode_heat.png
+    - assets/burn.png
+    - assets/core.jpg
+    - assets/arm.jpg
+    - assets/leg.jpg
+    - assets/chest.png
+    - assets/logo.png
+    - assets/weight.png
