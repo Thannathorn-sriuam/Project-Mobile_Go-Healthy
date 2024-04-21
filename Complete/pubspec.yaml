@@ -1,0 +1,88 @@
+name: go_healthy
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+dependencies:
+  cloud_firestore: ^4.17.0
+  firebase_core: ^2.30.0
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.0.8
+  flutter_calendar_carousel: ^2.3.1
+  http: ^0.13.5
+  provider: ^5.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  
+  
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: Baloo
+      fonts:
+        - asset: fonts/Baloo-Regular.ttf
+
+    - family: Baloo2
+      fonts:
+        - asset: fonts/Baloo2-Regular.ttf    
+
+  assets:
+    - assets/exercise.png
+    - assets/mode_heat.png
+    - assets/burn.png
+    - assets/core.jpg
+    - assets/arm.jpg
+    - assets/leg.jpg
+    - assets/chest.png
+    - assets/logo.png
+    - assets/weight.png
+    - assets/correct.png
+    - assets/Profile.png
+
+    - assets/gif/leg/easy1.gif
+    - assets/gif/leg/easy2.gif
+    - assets/gif/leg/easy3.gif
+    - assets/gif/leg/medium1.gif
+    - assets/gif/leg/medium2.gif
+    - assets/gif/leg/medium3.gif
+    - assets/gif/leg/hard1.gif
+    - assets/gif/leg/hard2.gif
+    - assets/gif/leg/hard3.gif
+
+    - assets/gif/core/easy1.gif
+    - assets/gif/core/easy2.gif
+    - assets/gif/core/easy3.gif
+    - assets/gif/core/medium1.gif
+    - assets/gif/core/medium2.gif
+    - assets/gif/core/medium3.gif
+    - assets/gif/core/hard1.gif
+    - assets/gif/core/hard2.gif
+    - assets/gif/core/hard3.gif
+
+    - assets/gif/arm/easy1.gif
+    - assets/gif/arm/easy2.gif
+    - assets/gif/arm/easy3.gif
+    - assets/gif/arm/medium1.gif
+    - assets/gif/arm/medium2.gif
+    - assets/gif/arm/medium3.gif
+    - assets/gif/arm/hard1.gif
+    - assets/gif/arm/hard2.gif
+    - assets/gif/arm/hard3.gif
+
+    - assets/gif/chest/easy1.gif
+    - assets/gif/chest/easy2.gif
+    - assets/gif/chest/easy3.gif
+    - assets/gif/chest/medium1.gif
+    - assets/gif/chest/medium2.gif
+    - assets/gif/chest/medium3.gif
+    - assets/gif/chest/hard1.gif
+    - assets/gif/chest/hard2.gif
+    - assets/gif/chest/hard3.gif
